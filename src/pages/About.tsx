@@ -7,21 +7,24 @@ const About = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="py-24 bg-gradient-to-b from-secondary/50 to-background">
+      <section className="pt-24 pb-0 bg-gradient-to-b from-secondary/50 to-background">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl">
             <span className="inline-block px-4 py-2 bg-primary/10 text-primary text-sm font-medium rounded-full mb-6">
               Our Philosophy
             </span>
-            <p className="font-body text-xl text-muted-foreground leading-relaxed mb-8">
+            <h1 className="font-display text-5xl md:text-6xl font-semibold text-foreground mb-8 leading-tight">
+              The Need for a Grounded Economic Philosophy
+            </h1>
+            <p className="font-body text-xl text-muted-foreground leading-relaxed">
               After 75 years of independence, India has forged a powerful national identity rooted in its rich political and cultural history. Yet, a striking imbalance persists: while we vigorously debate culture and social values, our political economy rarely receives the same level of scrutiny.
             </p>
           </div>
         </div>
       </section>
 
-      {/* The Economic Challenge */}
-      <section className="py-16">
+     {/* The Economic Challenge */}
+      <section className="pt-8 pb-16">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 font-body text-lg text-muted-foreground leading-relaxed">
