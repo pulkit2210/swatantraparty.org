@@ -13,9 +13,6 @@ const About = () => {
             <span className="inline-block px-4 py-2 bg-primary/10 text-primary text-sm font-medium rounded-full mb-6">
               Our Philosophy
             </span>
-            <h1 className="font-display text-5xl md:text-6xl font-semibold text-foreground mb-8 leading-tight">
-              The Need for a Grounded Economic Philosophy
-            </h1>
             <p className="font-body text-xl text-muted-foreground leading-relaxed mb-8">
               After 75 years of independence, India has forged a powerful national identity rooted in its rich political and cultural history. Yet, a striking imbalance persists: while we vigorously debate culture and social values, our political economy rarely receives the same level of scrutiny.
             </p>
